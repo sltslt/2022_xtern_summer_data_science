@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b7aaf7385b347519d03adf1e79ae64c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0b7aaf7385b347519d03adf1e79ae64c" ></div>
+        
+</body>
+<script>    
+    
+            var map_0b7aaf7385b347519d03adf1e79ae64c = L.map(
+                "map_0b7aaf7385b347519d03adf1e79ae64c",
+                {
+                    center: [39.78, -86.1331],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_70a327a9c80c462bb578852e35c6c094 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0b7aaf7385b347519d03adf1e79ae64c);
+        
+    
+            var marker_0273cf0b08504f559648006ab44d975e = L.marker(
+                [39.77389, -86.1849117],
+                {}
+            ).addTo(map_0b7aaf7385b347519d03adf1e79ae64c);
+        
+    
+            var icon_dde55a85f140488eb4983f9701894f67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0273cf0b08504f559648006ab44d975e.setIcon(icon_dde55a85f140488eb4983f9701894f67);
+        
+    
+        var popup_41cbe12bdb334b8fb59bf1832349a96e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fea0d04fba5248578f382ee8f6e20542 = $(`<div id="html_fea0d04fba5248578f382ee8f6e20542" style="width: 100.0%; height: 100.0%;">IUPUI Housing</div>`)[0];
+            popup_41cbe12bdb334b8fb59bf1832349a96e.setContent(html_fea0d04fba5248578f382ee8f6e20542);
+        
+
+        marker_0273cf0b08504f559648006ab44d975e.bindPopup(popup_41cbe12bdb334b8fb59bf1832349a96e)
+        ;
+
+        
+    
+    
+            marker_0273cf0b08504f559648006ab44d975e.bindTooltip(
+                `<div>
+                     Click here to see Popup
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36c367937e5e4f568a91c2a3611a8fc2 = L.marker(
+                [39.8488729, -86.1412948],
+                {}
+            ).addTo(map_0b7aaf7385b347519d03adf1e79ae64c);
+        
+    
+            var icon_14a93779d44c4c0caa2a520de6bb5b5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36c367937e5e4f568a91c2a3611a8fc2.setIcon(icon_14a93779d44c4c0caa2a520de6bb5b5a);
+        
+    
+        var popup_3540c61e0bce49f5b4ad499df2009e55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df07b60c706447f8928cea4c14d1dbec = $(`<div id="html_df07b60c706447f8928cea4c14d1dbec" style="width: 100.0%; height: 100.0%;">The Speak Easy Coworking</div>`)[0];
+            popup_3540c61e0bce49f5b4ad499df2009e55.setContent(html_df07b60c706447f8928cea4c14d1dbec);
+        
+
+        marker_36c367937e5e4f568a91c2a3611a8fc2.bindPopup(popup_3540c61e0bce49f5b4ad499df2009e55)
+        ;
+
+        
+    
+    
+            marker_36c367937e5e4f568a91c2a3611a8fc2.bindTooltip(
+                `<div>
+                     Click here to see Popup
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bc1435803154d7790dd1d2e73bc87ce = L.marker(
+                [39.9514923, -86.2608697],
+                {}
+            ).addTo(map_0b7aaf7385b347519d03adf1e79ae64c);
+        
+    
+            var icon_be8b7919a6b2421e951bebf45e7fbc51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bc1435803154d7790dd1d2e73bc87ce.setIcon(icon_be8b7919a6b2421e951bebf45e7fbc51);
+        
+    
+        var popup_f63bc50032a74313ade4f18b58638168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_669c9ff171b0491580d6a8512ea99f51 = $(`<div id="html_669c9ff171b0491580d6a8512ea99f51" style="width: 100.0%; height: 100.0%;">zWORKS Coworking</div>`)[0];
+            popup_f63bc50032a74313ade4f18b58638168.setContent(html_669c9ff171b0491580d6a8512ea99f51);
+        
+
+        marker_8bc1435803154d7790dd1d2e73bc87ce.bindPopup(popup_f63bc50032a74313ade4f18b58638168)
+        ;
+
+        
+    
+    
+            marker_8bc1435803154d7790dd1d2e73bc87ce.bindTooltip(
+                `<div>
+                     Click here to see Popup
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf631589eb60413fa18135f97fa691b2 = L.marker(
+                [39.9667636, -86.0088088],
+                {}
+            ).addTo(map_0b7aaf7385b347519d03adf1e79ae64c);
+        
+    
+            var icon_61ccfde876c146f8aada90c7f6c113fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf631589eb60413fa18135f97fa691b2.setIcon(icon_61ccfde876c146f8aada90c7f6c113fc);
+        
+    
+        var popup_088f5052678c4a3da44817b08ac2bb0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2379604663a24831bdec7a82b043c0da = $(`<div id="html_2379604663a24831bdec7a82b043c0da" style="width: 100.0%; height: 100.0%;">Launch Fishers Coworking</div>`)[0];
+            popup_088f5052678c4a3da44817b08ac2bb0e.setContent(html_2379604663a24831bdec7a82b043c0da);
+        
+
+        marker_cf631589eb60413fa18135f97fa691b2.bindPopup(popup_088f5052678c4a3da44817b08ac2bb0e)
+        ;
+
+        
+    
+    
+            marker_cf631589eb60413fa18135f97fa691b2.bindTooltip(
+                `<div>
+                     Click here to see Popup
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fad1b4578c144ac88451b6822ad143c9 = L.marker(
+                [39.765831, -86.157617],
+                {}
+            ).addTo(map_0b7aaf7385b347519d03adf1e79ae64c);
+        
+    
+            var icon_ba47bfa954ac4704b1aa4cd16e069160 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fad1b4578c144ac88451b6822ad143c9.setIcon(icon_ba47bfa954ac4704b1aa4cd16e069160);
+        
+    
+        var popup_7484c6c1980d4b7baa1eaf5f627623df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73eb33da72cb408595a3c5442aa113b9 = $(`<div id="html_73eb33da72cb408595a3c5442aa113b9" style="width: 100.0%; height: 100.0%;">Industrious Mass Ave Coworking</div>`)[0];
+            popup_7484c6c1980d4b7baa1eaf5f627623df.setContent(html_73eb33da72cb408595a3c5442aa113b9);
+        
+
+        marker_fad1b4578c144ac88451b6822ad143c9.bindPopup(popup_7484c6c1980d4b7baa1eaf5f627623df)
+        ;
+
+        
+    
+    
+            marker_fad1b4578c144ac88451b6822ad143c9.bindTooltip(
+                `<div>
+                     Click here to see Popup
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_337ce2ce45fa4db19d25d4200940a4d2 = L.marker(
+                [39.7593486, -86.1580467],
+                {}
+            ).addTo(map_0b7aaf7385b347519d03adf1e79ae64c);
+        
+    
+            var icon_b3ca756f5c0e47cc965153861bfd024d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_337ce2ce45fa4db19d25d4200940a4d2.setIcon(icon_b3ca756f5c0e47cc965153861bfd024d);
+        
+    
+        var popup_ff0c53ee85744a2da076b5397dfa83f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9a6110ff70449a6b87d6f412dd3db9d = $(`<div id="html_d9a6110ff70449a6b87d6f412dd3db9d" style="width: 100.0%; height: 100.0%;">Launch Indy Coworking</div>`)[0];
+            popup_ff0c53ee85744a2da076b5397dfa83f0.setContent(html_d9a6110ff70449a6b87d6f412dd3db9d);
+        
+
+        marker_337ce2ce45fa4db19d25d4200940a4d2.bindPopup(popup_ff0c53ee85744a2da076b5397dfa83f0)
+        ;
+
+        
+    
+    
+            marker_337ce2ce45fa4db19d25d4200940a4d2.bindTooltip(
+                `<div>
+                     Click here to see Popup
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
